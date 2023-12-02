@@ -60,3 +60,10 @@ button {
   max-width: 100%;
   margin-top: 5px;
 }
+
+.development-note{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; /* Adjust the height as needed */
+}

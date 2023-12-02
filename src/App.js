@@ -130,6 +130,9 @@ function App() {
           <button onClick={sendMessage}>Send</button>
         </div>
       </div>
+      <div className="development-note">
+            Note: Still in development. Maximum tokens: 20.
+          </div>
     </div>
   );
 }
