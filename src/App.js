@@ -147,9 +147,9 @@ function App() {
       <div className="development-note">
         ***Note!: Still in development. Maximum tokens: 20.***
       </div>
-      <div className="development-note">
-      <h3>click here if this is not working  
-        </h3> <button onClick={sendNotification}>ping me</button>
+      <div className="development-msg">
+      <p>click here if this is not working  
+        </p> <button onClick={sendNotification}>ping me</button>
       </div>
         {}
         <div className="contact-me">

@@ -61,33 +61,48 @@ button {
   margin-top: 5px;
 }
 
-.development-note{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10vh; 
-}
-
 .instruction-msg {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 10vh;
+  height: 15vh;
 }
+
+.development-note{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: -90px; 
+  bottom: 50px;
+}
+
+.development-msg{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 5vh; 
+  bottom: -530px;
+}
+
 
 .contact-me {
   text-align: center;
-  padding: 40px; 
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1px; 
   background-color: #f0f0f0; 
 }
 
 .contact-me h2 {
-  font-size: 24px;
+  font-size: 17px;
   margin-bottom: 10px;
 }
 
 .contact-me p {
-  font-size: 16px;
+  font-size: 12px;
   margin-bottom: 20px;
 }
 
@@ -97,7 +112,7 @@ button {
 }
 
 .contact-me li {
-  font-size: 18px;
+  font-size: 13px;
   margin-bottom: 10px;
 }
 
